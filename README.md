@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/jimavictor/Huddle-landing-page)
-- Live Site: [live site](https://jimavictor.github.io/Huddle-landing-page/)
+- Live Site: [live site](https://fervent-williams-86508a.netlify.app/)
 
 ## My process
 
