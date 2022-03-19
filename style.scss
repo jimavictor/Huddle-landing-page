@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background-color: hsl(257, 40%, 49%);
+  padding: 40px;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.facebook,
+.twitter,
+.instagram {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+article {
+  text-align: center;
+}
+.main__logo {
+  max-width: 40%;
+  margin: 20px 0;
+}
+.main__image {
+  width: 100%;
+  margin: 20px 0;
+}
+.main__heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.main__button {
+  min-width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 30px;
+  color: hsl(257, 40%, 49%);
+}
+.social-icons {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+  color: hsl(300, 69%, 71);
+  cursor: pointer;
+}
+.main__button:hover {
+  cursor: pointer;
+  background-color: hsl(300, 69%, 71);
+}
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  .main__heading {
+    font-size: 30px;
+  }
+  .main__button {
+    font-size: 20px;
+    min-width: 20%;
+    padding: 10px 50px;
+    border-radius: 40px;
+  }
+  .text-section {
+    margin-left: -80px;
+    align-items: flex-start;
+  }
+  article {
+    max-width: 500px;
+    text-align: start;
+  }
+  .main__image {
+    width: 80%;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .social-icons {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .text-section {
+    margin-left: -100px;
+    align-items: flex-start;
+  }
+  .main__heading {
+    font-size: 40px;
+  }
+  article {
+    min-width: 400px;
+  }
+}
